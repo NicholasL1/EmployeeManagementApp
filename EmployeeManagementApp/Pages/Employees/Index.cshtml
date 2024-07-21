@@ -22,15 +22,15 @@
         @foreach(var item in Model.listEmployees)
             {
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>@item.id</td>
+                    <td>@item.name</td>
+                    <td>@item.email</td>
+                    <td>@item.phone</td>
+                    <td>@item.address</td>
+                    <td>@item.created_at</td>
                     <td>
-                        <a class="btn btn-primary btn-sm" href="/Employees/Edit?id=">Edit</a>
-                        <a class="btn btn-primary btn-sm" href="/Employees/Delete?id=">Delete</a>
+                        <a class="btn btn-primary btn-sm" href="/Employees/Edit?id=@item.id">Edit</a>
+                        <a class="btn btn-danger btn-sm" href="/Employees/Delete?id=@item.id">Delete</a>
                     </td>
                 </tr>
             }

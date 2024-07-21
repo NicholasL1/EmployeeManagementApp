@@ -16,7 +16,8 @@ namespace EmployeeManagementApp.Pages.Employees
         {
             try
             {
-                String connectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Nick\\Desktop\\vscode\\mystore.mdf;Integrated Security=True;Connect Timeout=30";
+                String connectionString = "Server=localhost;Database=mystore;User Id=SA;Password=Speedy109901;";
+                ;
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
