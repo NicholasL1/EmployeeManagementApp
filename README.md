@@ -1,6 +1,6 @@
 # EmployeeManagementApp
 
-## An Employee management software created using the ASP.NET framework in C# with Visual Studio, a SQL Server DB instance, and bootstrap styling in the front end.
+### An Employee management software created using the ASP.NET framework in C# with Visual Studio, a SQL Server DB instance hosted on a Docker container, and bootstrap styling in the front end.
 
 ![image](https://github.com/user-attachments/assets/f42b25d7-7662-464c-8dbf-ef014c13c42a)
 
